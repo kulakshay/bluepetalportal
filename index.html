@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bluepetal | Hand-Painted Fashion Artwork &amp; Accessories</title>
+  <meta name="description" content="Bluepetal creates hand-painted fashion artwork — clutches, sarees, stoles and more — each piece designed and painted by hand. Browse our catalogue." />
+  <meta name="keywords" content="hand painted clutches, hand painted sarees, hand painted stoles, hand painted fashion accessories, hand painted bags India, artisan fashion artwork, Bluepetal" />
+  <link rel="canonical" href="https://bluepetals.co.in/" />
+  <link rel="icon" href="images/logo-placeholder.svg" type="image/svg+xml" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Bluepetal | Hand-Painted Fashion Artwork & Accessories" />
+  <meta property="og:description" content="Hand-painted clutches, sarees, stoles and more — each piece designed and painted by hand." />
+  <meta property="og:image" content="https://bluepetals.co.in/images/hero-placeholder.svg" />
+  <meta property="og:url" content="https://bluepetals.co.in/" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <link rel="stylesheet" href="css/variables.css" />
+  <link rel="stylesheet" href="css/base.css" />
+  <link rel="stylesheet" href="css/components.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="brand" href="index.html">
+        <img src="images/logo-placeholder.svg" alt="Bluepetal" class="brand__logo" />
+      </a>
+      <form class="header-search" data-header-search role="search">
+        <label class="visually-hidden" for="header-search-input">Search products</label>
+        <input id="header-search-input" name="q" type="search" placeholder="Search hand-painted pieces..." />
+        <button type="submit" aria-label="Search">🔍</button>
+      </form>
+      <button type="button" class="nav-toggle" data-nav-toggle aria-expanded="false" aria-controls="primary-menu" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="site-nav" aria-label="Primary">
+        <ul id="primary-menu" class="nav-menu" data-nav-menu>
+          <li><a href="index.html">Home</a></li>
+          <li class="has-dropdown">
+            <a href="catalogue.html">Catalogue</a>
+            <ul data-category-menu class="dropdown"></ul>
+          </li>
+          <li><a href="about.html">Our Story</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <img src="images/hero-placeholder.svg" alt="Hand-painted fashion artwork by Bluepetal" class="hero__image" />
+      <div class="container hero__content">
+        <h1>Hand-painted, heart-made.</h1>
+        <p>Every piece from Bluepetal is designed and painted by hand — clutches, sarees, stoles and more, made one at a time.</p>
+        <a class="btn" href="catalogue.html">Browse the Catalogue</a>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-heading">
+          <h2>Shop by Category</h2>
+          <p>Explore our hand-painted collections, each one a small, original piece of wearable art.</p>
+        </div>
+        <div class="category-tiles" data-category-tiles></div>
+      </div>
+    </section>
+
+    <section class="section section--alt">
+      <div class="container">
+        <div class="section-heading">
+          <h2>Featured Pieces</h2>
+          <p>A few of our current favourites.</p>
+        </div>
+        <p class="data-notice" data-notice hidden></p>
+        <div class="product-grid" data-featured-grid></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container story">
+        <div class="section-heading">
+          <h2>About Bluepetal</h2>
+        </div>
+        <p>Bluepetal is a small, home-run studio where each piece is designed, hand-painted, and finished by us — from the first sketch to the final brushstroke.</p>
+        <p><a class="btn btn--outline" href="about.html">Read Our Story</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <div>
+        <img src="images/logo-placeholder.svg" alt="Bluepetal" class="footer-logo" />
+        <p class="site-footer__tagline">Hand-painted artwork for fashion, made one piece at a time.</p>
+      </div>
+      <nav class="site-footer__links" aria-label="Footer">
+        <a href="index.html">Home</a>
+        <a href="catalogue.html">Catalogue</a>
+        <a href="about.html">Our Story</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="site-footer__social">
+        <a data-site-instagram href="#" target="_blank" rel="noopener">Instagram</a>
+        <a data-site-facebook href="#" target="_blank" rel="noopener">Facebook</a>
+        <a data-site-whatsapp href="#" target="_blank" rel="noopener">WhatsApp</a>
+      </div>
+    </div>
+    <p class="site-footer__copyright">&copy; <span data-site-year></span> Bluepetal. All photographs and designs are the exclusive property of Bluepetal and may not be reproduced without permission.</p>
+  </footer>
+
+  <script type="module" src="js/nav.js"></script>
+  <script type="module" src="js/home.js"></script>
+  <script type="module" src="js/lightbox.js"></script>
+</body>
+</html>
