@@ -1,0 +1,40 @@
+:root {
+  /* Backgrounds */
+  --color-bg: #fdfbf8;
+  --color-bg-alt: #f6efe9;
+  --color-surface: #ffffff;
+
+  /* Text */
+  --color-text: #3a2f2a;
+  --color-text-muted: #8a7b74;
+  --color-text-inverse: #fdfbf8;
+
+  /* Accent (swap these once the real logo/colors arrive) */
+  --color-primary: #b76e6e;
+  --color-primary-dark: #96524f;
+  --color-primary-light: #f1dfda;
+  --color-accent: #6f8f87;
+
+  /* Borders / shadows */
+  --color-border: #e8ddd3;
+  --shadow-sm: 0 1px 3px rgba(58, 47, 42, 0.08);
+  --shadow-md: 0 4px 16px rgba(58, 47, 42, 0.12);
+
+  /* Typography */
+  --font-heading: Georgia, 'Playfair Display', 'Times New Roman', serif;
+  --font-body: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+
+  /* Spacing / layout */
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --container-max-width: 1180px;
+  --gap-xs: 0.5rem;
+  --gap-sm: 1rem;
+  --gap-md: 1.5rem;
+  --gap-lg: 2.5rem;
+  --gap-xl: 4rem;
+
+  /* Breakpoints are documented here for reference only — CSS custom
+     properties cannot be used inside @media conditions.
+     tablet: 600px, desktop: 1024px */
+}
