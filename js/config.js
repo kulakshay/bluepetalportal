@@ -1,6 +1,6 @@
 // Paste your Google Sheet's ID here (the long id in its URL between /d/ and /edit).
 // Share the Sheet as "Anyone with the link -> Viewer" so the site can read it.
-export const SHEET_ID = 'PASTE_YOUR_GOOGLE_SHEET_ID_HERE';
+export const SHEET_ID = '1jNiK97s5enEyrhy9KGRuAG8TcNcWfXWm0PLCIcN3PlE';
 export const SHEET_TAB = 'Products';
 export const SHEET_URL = `https://docs.google.com/spreadsheets/d/${SHEET_ID}/gviz/tq?tqx=out:json&sheet=${encodeURIComponent(SHEET_TAB)}`;
 

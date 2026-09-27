@@ -46,10 +46,11 @@ falls back to the bundled sample data in
 ## Theming
 
 All colors, fonts, and spacing are defined as CSS custom properties in
-[css/variables.css](css/variables.css). Once the real logo and brand colors
-are available, update that file and replace
-[images/logo-placeholder.svg](images/logo-placeholder.svg) with the real
-logo (same filename, or update the `<img src>` in each page's header/footer).
+[css/variables.css](css/variables.css). The palette is matched to the real
+logo at [images/logo.webp](images/logo.webp) (a teal, hand-painted-elegance
+theme). To swap in a different logo later, replace that file (same filename,
+or update the `<img src>` in each page's header/footer) and adjust the
+palette in `variables.css` to match.
 
 ## Deployment (GitHub Pages)
 
