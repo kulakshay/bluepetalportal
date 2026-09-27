@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" role="img" aria-label="Placeholder photo of a hand-painted stole">
-  <rect width="600" height="800" fill="#f1dfda"/>
-  <rect x="40" y="40" width="520" height="720" fill="none" stroke="#b76e6e" stroke-width="2" stroke-dasharray="6 10"/>
-  <path d="M150 250 C 260 320, 340 200, 450 280 S 340 420, 450 480" fill="none" stroke="#b76e6e" stroke-width="10" stroke-linecap="round" opacity="0.6"/>
-  <text x="300" y="560" font-family="Georgia, serif" font-size="28" fill="#3a2f2a" text-anchor="middle">Hand Painted Stole</text>
-  <text x="300" y="596" font-family="-apple-system, sans-serif" font-size="18" fill="#8a7b74" text-anchor="middle">Sample photo 1</text>
+  <rect width="600" height="800" fill="#dcecec"/>
+  <rect x="40" y="40" width="520" height="720" fill="none" stroke="#0f6e73" stroke-width="2" stroke-dasharray="6 10"/>
+  <path d="M150 250 C 260 320, 340 200, 450 280 S 340 420, 450 480" fill="none" stroke="#0f6e73" stroke-width="10" stroke-linecap="round" opacity="0.6"/>
+  <text x="300" y="560" font-family="Georgia, serif" font-size="28" fill="#1f2e2f" text-anchor="middle">Hand Painted Stole</text>
+  <text x="300" y="596" font-family="-apple-system, sans-serif" font-size="18" fill="#5c7274" text-anchor="middle">Sample photo 1</text>
 </svg>

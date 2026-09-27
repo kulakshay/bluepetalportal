@@ -1,24 +1,25 @@
 :root {
   /* Backgrounds */
-  --color-bg: #fdfbf8;
-  --color-bg-alt: #f6efe9;
+  --color-bg: #fafdfd;
+  --color-bg-alt: #eaf3f3;
   --color-surface: #ffffff;
 
   /* Text */
-  --color-text: #3a2f2a;
-  --color-text-muted: #8a7b74;
-  --color-text-inverse: #fdfbf8;
+  --color-text: #1f2e2f;
+  --color-text-muted: #5c7274;
+  --color-text-inverse: #fafdfd;
 
-  /* Accent (swap these once the real logo/colors arrive) */
-  --color-primary: #b76e6e;
-  --color-primary-dark: #96524f;
-  --color-primary-light: #f1dfda;
-  --color-accent: #6f8f87;
+  /* Accent - matched to the Bluepetal logo's teal, with a warm gold as a
+     secondary accent for contrast (used sparingly). */
+  --color-primary: #0f6e73;
+  --color-primary-dark: #0a4f52;
+  --color-primary-light: #dcecec;
+  --color-accent: #c98a4b;
 
   /* Borders / shadows */
-  --color-border: #e8ddd3;
-  --shadow-sm: 0 1px 3px rgba(58, 47, 42, 0.08);
-  --shadow-md: 0 4px 16px rgba(58, 47, 42, 0.12);
+  --color-border: #d9e6e6;
+  --shadow-sm: 0 1px 3px rgba(10, 40, 41, 0.08);
+  --shadow-md: 0 4px 16px rgba(10, 40, 41, 0.12);
 
   /* Typography */
   --font-heading: Georgia, 'Playfair Display', 'Times New Roman', serif;

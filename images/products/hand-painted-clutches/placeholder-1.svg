@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" role="img" aria-label="Placeholder photo of a hand-painted clutch">
-  <rect width="600" height="800" fill="#f1dfda"/>
-  <rect x="40" y="40" width="520" height="720" fill="none" stroke="#b76e6e" stroke-width="2" stroke-dasharray="6 10"/>
-  <rect x="200" y="300" width="200" height="140" rx="16" fill="#b76e6e" opacity="0.55"/>
-  <path d="M230 300 Q300 250 370 300" fill="none" stroke="#b76e6e" stroke-width="6"/>
-  <circle cx="300" cy="300" r="10" fill="#3a2f2a" opacity="0.5"/>
-  <text x="300" y="560" font-family="Georgia, serif" font-size="28" fill="#3a2f2a" text-anchor="middle">Hand Painted Clutch</text>
-  <text x="300" y="596" font-family="-apple-system, sans-serif" font-size="18" fill="#8a7b74" text-anchor="middle">Sample photo 1</text>
+  <rect width="600" height="800" fill="#dcecec"/>
+  <rect x="40" y="40" width="520" height="720" fill="none" stroke="#0f6e73" stroke-width="2" stroke-dasharray="6 10"/>
+  <rect x="200" y="300" width="200" height="140" rx="16" fill="#0f6e73" opacity="0.55"/>
+  <path d="M230 300 Q300 250 370 300" fill="none" stroke="#0f6e73" stroke-width="6"/>
+  <circle cx="300" cy="300" r="10" fill="#1f2e2f" opacity="0.5"/>
+  <text x="300" y="560" font-family="Georgia, serif" font-size="28" fill="#1f2e2f" text-anchor="middle">Hand Painted Clutch</text>
+  <text x="300" y="596" font-family="-apple-system, sans-serif" font-size="18" fill="#5c7274" text-anchor="middle">Sample photo 1</text>
 </svg>
