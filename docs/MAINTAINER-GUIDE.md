@@ -36,13 +36,31 @@ date. Everything is controlled from a Google Sheet.
 
 ## Uploading a photo (no coding needed)
 
-1. Go to the website's GitHub page: `https://github.com/kulakshay/bluepetalportal`
-2. Open the `images/products/` folder, then open the folder for the right
-   category (e.g. `hand-painted-clutches`).
-3. Click **Add file → Upload files**, then drag in your photo.
-4. Scroll down and click **Commit changes** to save.
-5. Copy the exact filename (including `.jpg`/`.png` and matching upper/lower
+The first time only, you'll need a free GitHub account and to be given
+access to this project — the developer sets that up once. After that, use
+one of these three bookmarks depending on which category your photo is for
+(save them in your browser's bookmarks bar so you never have to hunt for
+them):
+
+- Clutches: `https://github.com/kulakshay/bluepetalportal/upload/main/images/products/hand-painted-clutches`
+- Sarees: `https://github.com/kulakshay/bluepetalportal/upload/main/images/products/hand-painted-sarees`
+- Stoles: `https://github.com/kulakshay/bluepetalportal/upload/main/images/products/hand-painted-stoles`
+
+Then:
+
+1. Open the bookmark for the right category. It takes you straight to an
+   upload screen — no folders to click through.
+2. Drag your photo file into the box (or click it to browse for the file).
+3. Scroll down to the green **Commit changes** button and click it. ("Commit"
+   just means "save" — you don't need to fill in anything else on this
+   screen.)
+4. Copy the exact filename (including `.jpg`/`.png` and matching upper/lower
    case) into the `image` column of your Sheet row.
+
+If you ever need a category that isn't in the list above (a brand-new one),
+ask the developer for its bookmark link, or just navigate manually: go to
+`https://github.com/kulakshay/bluepetalportal`, open `images/products/`,
+open the category's folder, then **Add file → Upload files**.
 
 **Filename tips:** use lowercase letters, numbers, and hyphens only — no
 spaces — e.g. `clutch-blue-floral.jpg`, not `Clutch Blue Floral.JPG`.
