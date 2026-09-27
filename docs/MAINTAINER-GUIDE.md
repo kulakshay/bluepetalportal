@@ -70,6 +70,16 @@ close-up photo of the hand-painted artwork itself, and one photo of the
 piece styled or worn, in natural daylight — this keeps photos looking
 consistent across the catalogue.
 
+**Photo size:** phone camera photos are usually much bigger than the
+website needs (several MB, 3000px+), which slows the site down. Before
+uploading, resize each photo to roughly **1200×1600px** (portrait) and aim
+for **under ~400 KB**. Two easy ways to do this without any technical
+skill:
+- Use [squoosh.app](https://squoosh.app) — free, no account, no install:
+  drag your photo in, adjust the size/quality slider, download.
+- Or send the photo to yourself on WhatsApp and download it from there —
+  WhatsApp automatically compresses images to a web-friendly size.
+
 ## Removing a product
 
 You don't need to delete the row. Just set its `status` column to `Hidden`
